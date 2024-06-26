@@ -14,6 +14,12 @@
 }
 .logo{
     transition: transform 500ms;
+    /* transition: border 500ms; */
+    transition: border-radius 1000ms;
+}
+.logo:hover{
+    border-radius: 50px;
+    border: solid 5px black;
 }
 #btn-sigin:hover,
 .logo:hover{
