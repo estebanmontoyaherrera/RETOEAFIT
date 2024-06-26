@@ -1,0 +1,21 @@
+
+.nav-link{
+    transition: transform 500ms;
+}
+.nav-link:hover{
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+.nav-link:active{
+    color: rgb(0, 0, 102);
+}
+#btn-sigin{
+    transition: transform 500ms;
+}
+.logo{
+    transition: transform 500ms;
+}
+#btn-sigin:hover,
+.logo:hover{
+    transform: scale(1.2);
+}
